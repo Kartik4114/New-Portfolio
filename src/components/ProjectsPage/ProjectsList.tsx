@@ -11,7 +11,7 @@ export default function ProjectsList() {
           hoverTitle: "DSA & Interview Prep Platform",
           subTitle:
             "A comprehensive platform for students to practice DSA, participate in coding contests, take mock interviews using AI, and engage in technical discussions",
-          link: "",
+          link: "https://github.com/Kartik4114/Code-Connect",
         },
         {
           title: "PORTFOLIO WEBSITE",

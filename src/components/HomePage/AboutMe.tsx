@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
-import ME1 from "../../assets/Me1.png?url";
-import ME from "../../assets/Me.png?url";
-// import ME from "../assets/Me.png?url";
+import ME1 from "../../assets/Me.png?url";
+import MeBlack_White from "../../assets/MeBlack_White.png?url";
+// import MeBlack_White from "../assets/Me.png?url";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ScrollIndicator from "../common/ScrollIndicator";
@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 export default function AboutMe(props:{sectionRef:React.RefObject<HTMLDivElement>})
 {
     // const age = "XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI";
-    const about_me = "ABOUT ME ABOUT ME ABOUT ME ABOUT ME ABOUT ME";
+    const about_me = "ABOUT MeBlack_White ABOUT MeBlack_White ABOUT MeBlack_White ABOUT MeBlack_White ABOUT MeBlack_White";
     // const alias = "IKARTIKMITTALKARTIKMITTALKARTIKMITTAL";
     // const bday = "0XA330XA330XA330XA330XA330XA330XA330XA33";
 
@@ -171,8 +171,8 @@ export default function AboutMe(props:{sectionRef:React.RefObject<HTMLDivElement
                 </div>
                 <div className="w-full overflow-y-clip hidden lg:block relative">
                     <div className="group" ref={imageRef}>
-                        <img className={`absolute top-0 left-0 z-10 w-full h-full duration-700 ${isIntersecting?"opacity-0":""}`} src={ME} alt="" />
-                        <img className='w-full h-full white-outline' src={ME1} alt="" />
+                        <img className={`absolute top-0 left-0 z-10 w-100 h-200 duration-700 ${isIntersecting?"opacity-0":""}`} src={MeBlack_White} alt="" />
+                        <img className='w-100 h-200  white-outline' src={ME1} alt="" />
                     </div>
                 </div>
             </div>
