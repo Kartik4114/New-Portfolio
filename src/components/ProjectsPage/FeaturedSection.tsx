@@ -7,7 +7,6 @@ import ScrollIndicator from "../common/ScrollIndicator";
 
 export default function FeaturedSection() {
   const [phaseIndex, setPhaseIndex] = useState(0);
-  const ref = useRef<HTMLDivElement>(null);
   const phases = ["Code Connect", "CineYatra", "Career Connect"];
 
   useEffect(() => {
