@@ -12,7 +12,7 @@ export default function AboutMe(props:{sectionRef:React.RefObject<HTMLDivElement
 {
     // const age = "XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI";
     const about_me = "ABOUT ME ABOUT ME ABOUT ME ABOUT ME ABOUT ME";
-    // const alias = "IUTKARSHGUPTAIUTKARSHGUPTAIAMUTKARSHGUPTA";
+    // const alias = "IKARTIKMITTALKARTIKMITTALKARTIKMITTAL";
     // const bday = "0XA330XA330XA330XA330XA330XA330XA330XA33";
 
     const parentRef = useRef<HTMLDivElement>(null);
@@ -160,7 +160,7 @@ export default function AboutMe(props:{sectionRef:React.RefObject<HTMLDivElement
                     <hr className='border-primary border-2 mt-4'/>
                     <div className="mt-4 flex flex-wrap gap-1">
                         {
-                            ["Full Stack Development","Frontend Developer","Designer","NextJS"].map((value,index)=>{
+                            ["Full Stack Developer","Problem-Solver","Tech-Enthusiast","Explorer"].map((value,index)=>{
                                 return <div key={index} ref={tagsRef[index]} className="cursor-pointer fill-hover relative grow border-2 border-white/10 rounded-lg flex p-2 lg:p-4 justify-center hover:grow-[2] transition-[flex-grow] duration-300 text-xs"><span>{value}</span></div>
                             })
                         }

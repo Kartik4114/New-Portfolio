@@ -1,7 +1,7 @@
 import TypewriterComponent from "typewriter-effect";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Button from '../components/common/Button';
+import Button from './common/Button';
 import { TransitionLink } from '../contexts/PageLoaderContext';
 gsap.registerPlugin(ScrollTrigger);
 
@@ -19,9 +19,8 @@ function LandingHero () {
                 strings: [
                   "Programming.",
                   "Web Development.",
-                  "Graphic Designing.",
-                  "Machine Learning.",
-                  "Philosophy.",
+                  "Problem Solving.",
+                  "UI/UX Design.",
                 ],
                 autoStart: true,
                 loop: true,
@@ -31,7 +30,7 @@ function LandingHero () {
         </div>
       </div>
       <div className='bg-red flex gap-5 md:mt-4 justify-center item-center'>
-        <a href='https://drive.google.com/drive/u/1/folders/1NbVYxVtpDthB_DWbHj9HfxA6o9hoJgXW' target='_blank'>
+        <a href='https://drive.google.com/file/d/1wSzdrC4lAv0wnlSRPl8YsQVTZFO_EClf/view?usp=sharing' target='_blank'>
           <Button color='primary' className='md:w-48'>RESUME</Button>
         </a>
         <TransitionLink to='/projects'>

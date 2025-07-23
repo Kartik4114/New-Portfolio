@@ -7,7 +7,7 @@ export default function FeaturedSection()
 {
     const [phaseIndex,setPhaseIndex] = useState(0);
     const ref = useRef<HTMLDivElement>(null)
-    const phases = ['SynthAi','GoChat','nextToDo',"Xcrypt"];
+    const phases = ['Code Connect','CineYatra','Career Connect'];
 
     useEffect(()=>{
         deltaPhase(0);
@@ -89,10 +89,10 @@ export default function FeaturedSection()
                         <div className="absolute top-0 left-0 h-3/4 w-full bg-gradient-to-b from-background to-transparent -z-10"/>
                         <img src="/Synthai.png" className="absolute top-0 left-0 -z-20 w-full h-full object-cover"/>
                         <div className='bg-white/50 bg-opacity-20 backdrop-blur-lg rounded-lg drop-shadow-lg flex flex-col items-center justify-center p-10'>
-                            <h1 className='text-4xl lg:text-6xl font-bold tracking-tighter text-center accent-gradient background-clip-text'>SynthAi</h1>
-                            <h1 className='text-3xl lg:text-3xl font-bold opacity-70 tracking-tighter py-2 text-center'>SaaS AI Platform.</h1>
+                                <h1 className='text-4xl lg:text-6xl font-bold tracking-tighter text-center accent-gradient background-clip-text'>Code Connect</h1>
+                            <h1 className='text-3xl lg:text-3xl font-bold opacity-70 tracking-tighter py-2 text-center'>Coding,Discussion and Interview Platform</h1>
                             <a href="https://synth-aii.vercel.app/" target='_blank'>
-                                <Button color='primary' className='mt-8 w-48'>Checkout SynthAi</Button>
+                                <Button color='primary' className='mt-8 w-48'>Checkout CodeConnect</Button>
                             </a>
                         </div>
                     </div>

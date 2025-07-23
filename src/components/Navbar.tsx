@@ -55,7 +55,7 @@ function Navbar(props: { className?: string, margin?: boolean }) {
           </div>
           {/* width="50" height="43" */}
           <div>
-              <img src="/128.png" alt="Main Logo" />
+              <img src="/128.png" alt="Main Logo" className="w-40 h-16"/>
           </div>
           <div className='w-full flex justify-evenly'>
             <TransitionLink to='/projects'>

@@ -49,11 +49,11 @@ function HomePage()
         <ParallaxBG>
             <div className='flex flex-col justify-center items-center'>
                 <div ref={heroTextRef[2]} className='overflow-y-clip'><h1 className='text-xl md:text-4xl opacity-75'>Hey, I am</h1></div>
-                <div ref={heroTextRef[1]} className='overflow-y-clip'><h1 className='text-3xl md:text-5xl font-extrabold'><AnimatedText delay={200} text='UtkarshGupta'/></h1></div>
+                <div ref={heroTextRef[1]} className='overflow-y-clip'><h1 className='text-3xl md:text-5xl font-extrabold'><AnimatedText delay={200} text='Kartik Mittal'/></h1></div>
                 
                 <div ref={heroTextRef[0]} className='bg-red flex gap-5 mt-4'>
 
-                    <a href='https://drive.google.com/file/d/1l2QvOM5uZRBPo6GSOMxyEJWCNbxs3-EI/view?usp=sharing' target='_blank'>
+                    <a href='https://drive.google.com/file/d/1wSzdrC4lAv0wnlSRPl8YsQVTZFO_EClf/view?usp=sharing' target='_blank'>
                         <Button color='primary' className='md:w-48'>RESUME</Button>
                     </a>
                     <TransitionLink to='/projects'>
