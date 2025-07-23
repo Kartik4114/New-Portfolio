@@ -17,7 +17,7 @@ export default function ProjectsList() {
           title: "PORTFOLIO WEBSITE",
           hoverTitle: "MAYBE RECURSION?",
           subTitle: "A website to showcase all my skills and work.",
-          link: "",
+          link: "https://kartik-mittal.vercel.app/",
           notBlank: true,
         },
         {
