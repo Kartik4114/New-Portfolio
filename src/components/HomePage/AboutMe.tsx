@@ -11,8 +11,8 @@ gsap.registerPlugin(ScrollTrigger);
 export default function AboutMe(props:{sectionRef:React.RefObject<HTMLDivElement>})
 {
     // const age = "XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI XXI";
-    const about_me = "ABOUT MeBlack_White ABOUT MeBlack_White ABOUT MeBlack_White ABOUT MeBlack_White ABOUT MeBlack_White";
-    // const alias = "IKARTIKMITTALKARTIKMITTALKARTIKMITTAL";
+    // const about_me = "ABOUT MeBlack_White ABOUT MeBlack_White ABOUT MeBlack_White ABOUT MeBlack_White ABOUT MeBlack_White";
+    const about_me = "IKARTIKMITTALKARTIKMITTALKARTIKMITTAL";
     // const bday = "0XA330XA330XA330XA330XA330XA330XA330XA33";
 
     const parentRef = useRef<HTMLDivElement>(null);
