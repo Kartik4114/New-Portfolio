@@ -19,6 +19,7 @@ function LandingHero () {
                 strings: [
                   "Programming.",
                   "Web Development.",
+                  "App Development.",
                   "Problem Solving.",
                   "UI/UX Design.",
                 ],
