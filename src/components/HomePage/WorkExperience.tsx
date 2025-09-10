@@ -39,6 +39,25 @@ function WorkExperience() {
       ),
       link: "https://drive.google.com/file/d/1DjwtKhsjsHcaj7VSA8n3CSExJJQMe5FK/view?usp=sharing",
     },
+    {
+      title: "ML Trainee",
+      hoverTitle: "Amazon ML School 2025",
+      type: "Student",
+      subTitle: (
+        <>
+          <h1 className="font-bold">Aug 2025 - Sep 2025</h1>
+          <div className="mt-4">
+            Selected among the top 3,000 students nationwide for the prestigious
+            Amazon ML School 2025. Completed intensive training by Amazon in
+            Machine Learning, Deep Learning, and Large Language Models (LLMs).
+            Acquired hands-on expertise in Supervised & Unsupervised Learning,
+            Neural Networks, Dimensionality Reduction, and Reinforcement
+            Learning.
+          </div>
+        </>
+      ),
+      link: "https://drive.google.com/file/d/1Iww8ek-X5YG-v9NYx3RR4yr2TH16Isoe/view?usp=drive_link",
+    },
   ];
   const compRefs = [
     useRef<HTMLAnchorElement>(null),
